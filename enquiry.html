@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Enquiry page-->
+    <title>Enquiry | Blush & Bloom</title>
+</head>
+<body>
+   <header> 
+    <!--Navigation sector-->
+    <h1> Blush & Bloom Beauty Studio</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="sevices.html">Sevices</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+  </header>  
+
+
+  <main>
+
+    <h2>Make an Enquiry</h2>
+
+    <p>
+        Complete the form below and will get back to you as soon as possible.
+    </p>
+
+    <form>
+
+<!--where you fill in your name and surname-->
+         <label> for="name"> Full Name</label><br>
+         <input type="text" id="name" name="name" required>
+         <br><br>
+<!--where you enter your email address or icloud-->
+         <label for="email">Email Address:</label><br>
+         <input type="email"id="email" name="email" required>
+         <br><br>
+<!--your phone number if maybe we want to contact you-->
+         <label for="phone">Phone Number:</label><br>
+          <input type="tel"id="phone" name="phone" required>
+          <br><br>
+
+<!-- this is the part where you get to select which service you want to get done-->
+          <label for="service">Choose a service:</label><br>
+          <select id="service" name="service">
+            <option value="">Select a service</option>
+            <option value="Hair">hairstyling</option>
+            <option value="nails">nail service</option>
+            <option value="makeup">makeup</option>
+            <option value="skincare">skincare</option>
+          </select>
+          <br><br>
+
+<!--date of appoinment will have to be filled in here, when you are avaiable-->
+          <label for="date">Any Date:</label><br>
+          <input type="date" id="date" name="date">
+          <br><br>
+<!--where you can share your thoughts in the small box-->
+         <label for="message" >Message</label><br>
+         <textarea id="message" name="message" rows="5"
+         placeholder="Tell us anything we should know..."></textarea>
+         <br><br>
+
+<!--Press submit when you are fully positive about what you have selected and go to the next page-->
+         <button type="submit">Submit Enquiry</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy 2026 Blush & Bloom Beauty Studio</p>
+  </footer>
+      
+</body>
+</html>
