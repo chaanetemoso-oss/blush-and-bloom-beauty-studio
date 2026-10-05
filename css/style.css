@@ -1,0 +1,229 @@
+
+/*  BASIC STYLING */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff7fa;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+h1,
+h2,
+h3 {
+    color: #7a2945;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+
+/*HEADER */
+
+header {
+    background-color: #fcaadd;
+    padding: 1.5rem 5%;
+    text-align: center;
+}
+
+
+/* NAVIGATION */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #7a2945;
+    font-weight: bold;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #c75c7a;
+}
+
+
+/* IMAGES */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+
+
+/*SERVICES */
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.service-card {
+    background-color: white;
+    padding: 1.5rem;
+    border: 1px solid #f0c4d0;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-card:hover {
+    transform: translateY(-3px);
+}
+
+
+/* BUTTONS */
+
+button,
+.btn {
+    display: inline-block;
+    background-color: #c75c7a;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #7a2945;
+}
+
+
+/* FORMS */
+
+form {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+/* FOOTER */
+
+footer {
+    background-color: #7a2945;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+
+/* 
+   TABLET RESPONSIVE DESIGN */
+
+@media screen and (max-width: 768px) {
+
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav ul {
+        gap: 0.5rem;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+}
+
+
+/* 
+   MOBILE RESPONSIVE DESIGN
+  */
+
+@media screen and (max-width: 480px) {
+
+    body {
+        font-size: 0.95rem;
+    }
+
+    main {
+        width: 94%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
