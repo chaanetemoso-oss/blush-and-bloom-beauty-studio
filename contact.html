@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Blush & Bloom Beauty Studio</title>
+    <meta name="description" content="Get in touch with Blush & Bloom Beauty Studio for beauty service enquiries, appointments and customer support.">
+
+<meta name="keywords" content="contact Blush and Bloom, beauty salon contact, beauty appointments, beauty studio">
+
+<meta name="author" content="Blush & Bloom Beauty Studio">
 
     <!-- Connects this page to the website's CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -27,52 +32,78 @@
         </nav>
     </header>
 
-    <!-- Contact information -->
-    <main>
-        <section>
-            <h2>Get in Touch</h2>
+<!-- Contact information -->
+<main>
+    <section>
+        <h2>Get in Touch</h2>
+
+        <p>
+            We’re happy to answer questions about our treatments,
+            prices and appointments. Contact us using the details below.
+        </p>
+
+        <h3>Visit the Studio</h3>
+        <p>123 Rose Street, Pretoria, South Africa</p>
+        <p>Please book ahead so we can give you our full attention.</p>
+
+        <h3>Call or WhatsApp</h3>
+        <p><a href="tel:+27 79 148 7281">+27 79 148 7281</a></p>
+        <p>Call or WhatsApp us to ask a question or arrange an appointment.</p>
+
+        <h3>Email</h3>
+        <p>
+            <a href="mailto:hello@blushandbloom.icloud.com">
+                hello@blushandbloom.icloud.com
+            </a>
+        </p>
+
+        <h3>Opening Hours</h3>
+        <ul>
+            <li>Monday–Friday: 9:00 am–5:00 pm</li>
+            <li>Saturday: 9:00 am–2:00 pm</li>
+            <li>Sunday and public holidays: Closed</li>
+        </ul>
+
+        <h3>Appointments</h3>
+        <p>
+            Please tell us which service you’re interested in and
+            your preferred date and time. We’ll get back to you to
+            confirm availability.
+        </p>
+
+        <h3>Contact Form</h3>
+        <p>Send us a message using the form below.</p>
+
+        <form id="contact-form">
             <p>
-                We’re happy to answer questions about our treatments,
-                prices and appointments. Contact us using the details below.
+                <label for="contact-name">Your name:</label><br>
+                <input type="text" id="contact-name" required>
             </p>
 
-            <h3>Visit the Studio</h3>
-            <p>123 Rose Street, Pretoria, South Africa</p>
-            <p>Please book ahead so we can give you our full attention.</p>
-
-            <h3>Call or WhatsApp</h3>
-            <p><a href="tel:+27 79 148 7281">+27 79 148 7281</a></p>
-            <p>Call or WhatsApp us to ask a question or arrange an appointment.</p>
-
-            <h3>Email</h3>
             <p>
-                <a href="mailto:hello@blushandbloom.icloud.com">
-                    hello@blushandbloom.icloud.com
-                </a>
+                <label for="contact-email">Your email:</label><br>
+                <input type="email" id="contact-email" required>
             </p>
 
-            <h3>Opening Hours</h3>
-            <ul>
-                <li>Monday–Friday: 9:00 am–5:00 pm</li>
-                <li>Saturday: 9:00 am–2:00 pm</li>
-                <li>Sunday and public holidays: Closed</li>
-            </ul>
-
-            <h3>Appointments</h3>
             <p>
-                Please tell us which service you’re interested in and
-                your preferred date and time. We’ll get back to you to
-                confirm availability.
+                <label for="contact-message">Your message:</label><br>
+                <textarea id="contact-message" rows="5" required></textarea>
             </p>
 
-            <a href="enquiry.html" class="btn">Send an Enquiry</a>
-        </section>
-    </main>
+            <button type="submit" class="btn">Send Message</button>
 
-    <!-- Footer -->
+            <p id="contact-feedback"></p>
+        </form>
+
+        <br>
+        <a href="enquiry.html" class="btn">Send an Enquiry</a>
+    </section>
+</main>
+
+        <!-- Footer -->
     <footer>
         <p>&copy; 2026 Blush & Bloom Beauty Studio</p>
     </footer>
-
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Enquiry | Blush & Bloom Beauty Studio</title>
+<meta name="description" content="Contact Blush & Bloom Beauty Studio to enquire about our beauty treatments, appointments and services.">
 
+<meta name="keywords" content="beauty salon enquiry, beauty appointments, contact beauty studio, Blush and Bloom">
+
+<meta name="author" content="Blush & Bloom Beauty Studio">
     <!-- Connects this page to the website's CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -38,34 +42,40 @@
                 you are interested in.
             </p>
 
-            <form action="#" method="post">
-                <p>
-                    <label for="name">Your name:</label><br>
-                    <input type="text" id="name" name="name" required>
-                </p>
+       
+<form id="enquiry-form" action="#" method="post">
 
-                <p>
-                    <label for="email">Your email:</label><br>
-                    <input type="email" id="email" name="email" required>
-                </p>
+    <p>
+        <label for="name">Your name:</label><br>
+        <input type="text" id="name" name="name" required>
+    </p>
 
-                <p>
-                    <label for="service">Service you are interested in:</label><br>
-                    <select id="service" name="service" required>
-                        <option value="">Choose a service</option>
-                        <option value="facial">Facial</option>
-                        <option value="makeup">Makeup</option>
-                        <option value="nails">Nails</option>
-                    </select>
-                </p>
+    <p>
+        <label for="email">Your email:</label><br>
+        <input type="email" id="email" name="email" required>
+    </p>
 
-                <p>
-                    <label for="message">Your message:</label><br>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </p>
+    <p>
+        <label for="service">Service you are interested in:</label><br>
+        <select id="service" name="service" required>
+            <option value="">Choose a service</option>
+            <option value="facial">Facial</option>
+            <option value="makeup">Makeup</option>
+            <option value="nails">Nails</option>
+        </select>
+    </p>
 
-                <button type="submit" class="btn">Send Enquiry</button>
-            </form>
+    <p>
+        <label for="message">Your message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea>
+    </p>
+
+    <button type="submit" class="btn">Send Enquiry</button>
+
+    <p id="form-feedback" style="font-weight: bold; padding: 10px;"></p>
+
+</form>
+
         </section>
     </main>
 
@@ -73,6 +83,6 @@
     <footer>
         <p>&copy; 2026 Blush & Bloom Beauty Studio</p>
     </footer>
-
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -1,22 +1,60 @@
-Blush & Bloom Beauty Studio
 
-Welcome to the Blush & Bloom Beauty Studio website. This project introduces the studio, describes its beauty services, and gives visitors a way to make enquiries and find contact information.
+# Blush & Bloom Beauty Studio
 
-_ About the project
+Welcome to the Blush & Bloom Beauty Studio website. This project introduces the studio, describes its beauty services, and allows visitors to make enquiries and find contact information.
 
-Blush & Bloom is a beauty studio focused on helping clients feel cared for, refreshed, and confident. The website is designed to be simple to navigate on desktop, tablet, and mobile screens.
+## About the Project
 
-_Website pages
+Blush & Bloom is a beauty studio focused on helping clients feel cared for, refreshed and confident. The website is designed to be easy to navigate on desktop, tablet and mobile screens.
 
-Home— Introduction to Blush & Bloom
-About Us — Information about the studio and its goal
-Services— An overview of the beauty services
-Enquiry— A form for visitors to ask about a service
-Contact — Contact information and opening hours
-_Built with
+## Website Pages
 
-HTML
-CSS
-_Project structure
+- **Home:** Introduction to Blush & Bloom.
+- **About Us:** Information about the studio and its goals.
+- **Services:** Overview of the beauty services.
+- **Enquiry:** Form for visitors to enquire about services.
+- **Contact:** Contact details, opening hours and contact form.
 
-text project-folder/ index.html about.html services.html enquiry.html contact.html css/ └── style.css images/ js/ └── README.md
+## Features
+
+- Responsive website design.
+- Navigation between all five pages.
+- JavaScript fade-in animations.
+- Dynamic welcome message.
+- Automatic current date display.
+- Click-to-enlarge homepage image.
+- Enquiry form validation.
+- Contact form validation.
+- SEO meta descriptions and keywords.
+- Robots.txt and sitemap.xml files.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Project Structure
+
+```text
+project-folder/
+├── index.html
+├── about.html
+├── services.html
+├── enquiry.html
+├── contact.html
+├── robots.txt
+├── sitemap.xml
+├── README.md
+├── CHANGELOG.md
+├── css/
+│   └── style.css
+├── images/
+│   └── salon.jpg
+└── js/
+    └── script.js
+```
+
+## Author
+
+Mmadika Temoso Chaane
