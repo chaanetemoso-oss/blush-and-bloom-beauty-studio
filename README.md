@@ -58,3 +58,8 @@ project-folder/
 ## Author
 
 Mmadika Temoso Chaane
+
+
+## Form Functionality
+
+The enquiry and contact forms use JavaScript validation to check that required fields are completed. Users receive feedback after submitting the forms. Form submissions are currently handled on the client side.
