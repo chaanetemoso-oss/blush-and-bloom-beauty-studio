@@ -1,4 +1,4 @@
-
+// JavaScript functionality for the Blush & Bloom Beauty Studio website.
 document.addEventListener("DOMContentLoaded", function () {
 
     console.log("Blush & Bloom JavaScript is working!");
